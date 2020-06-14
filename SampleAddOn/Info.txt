@@ -1,0 +1,7 @@
+﻿This sample add-on shows how to handle button events on Management Console screen. e.g. Before/After Ok/Cancel events
+
+* For Ok button, Before and after events are exposed as OnBeforeSave and OnAfterSave.
+
+* For Cancel button, Before and after events are exposed as OnBeforeCancel and OnAfterCancel.
+
+e.g. For Customer AddEdit View screen, Before and After events of Ok and Cancel button is demonstrated in Customer.cs
